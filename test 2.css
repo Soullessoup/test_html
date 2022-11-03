@@ -1,0 +1,83 @@
+*{
+    flex-basis: 3cm;
+    margin:0%;
+    padding: 0%;
+    flex: 100vh;
+}
+    
+header{
+    background-color: greenyellow;
+    height: 20vh;
+}
+
+body{
+    display: block;
+}
+
+.gimmehead{
+    display: flex;
+    height: 60vh;
+}
+
+.contenu{ /*consignes*/
+    color: red;
+    text-align: center;
+}
+
+.gimme{/*aside*/
+    background-color: purple;
+    display: flex;
+    flex: 1px;
+    color: white;
+}
+
+.gi{
+    background-color: red;
+    flex: 1vh;
+}
+
+footer{
+    background-color: greenyellow;
+    height: 20vh;
+}
+
+p{
+    padding: 5px;
+}
+  
+
+
+/*Tableau 1-2-3-4*/
+.table{
+    display:flex;
+    height: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.case1{
+  background-color: orange;
+  flex: 50vh;  
+}
+
+.case2{
+    background-color: orangered;
+    flex: 50vh;
+}
+
+.case3{
+    background-color: red;
+    flex: 50vh;
+    height: 15vh;
+}
+
+.case4{
+    background-color: gainsboro;
+    flex: 50vh;
+}
+
+.case5{
+    background-color: gray;
+    flex: 50vh;
+}

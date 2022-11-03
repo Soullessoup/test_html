@@ -1,0 +1,49 @@
+*{
+  flex-basis: 3cm;
+  margin:0%;
+  padding: 0%;
+  flex: 100vh;
+}
+  
+body{ /*All*/
+  display: flex;
+}
+
+.lu{ /*Artifoot to aside*/
+  display: flex;
+}
+
+
+nav{
+  background-color: red;
+  padding: 10px;
+  height: 99vh;
+  flex: 0.5;
+}
+
+.ow{
+  color: white;
+}
+
+header, footer{
+  background-color: greenyellow;
+  padding: 10px;
+  height: 18vh;
+}
+
+header{
+  flex: 4;
+}
+
+aside{
+  background-color: rgb(223, 244, 190);
+  padding: 10px;
+  height: 75vh;
+}
+
+article{
+  padding: 10px;
+  height: 51vh;
+}
+
+
